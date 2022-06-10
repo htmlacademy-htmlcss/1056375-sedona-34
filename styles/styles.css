@@ -54,6 +54,12 @@ body {
   display: flex;
 }
 
+.navigation-logo {
+  width: 139px;
+  margin-right: 30px;
+  margin-left: 70px;
+}
+
 .navigation-list {
   width: 470px;
   margin: 0;
@@ -63,6 +69,7 @@ body {
 .navigation-user {
   max-width: 300px;
   margin-left: auto;
+  margin-right: 70px;
 }
 
 .navigation-link {
@@ -79,7 +86,6 @@ body {
 
 .logo {
   display: block;
-  /* margin: 0 auto; */
 }
 
 .header-background {
@@ -154,6 +160,11 @@ body {
   text-align: center;
 }
 
+.catalog-newsletter {
+  width: 1200px;
+  text-align: center;
+}
+
 .newsletter-info {
   color: inherit;
 }
@@ -195,8 +206,9 @@ body {
   background-image: url("../images/background-filter.jpg");
   color: #ffffff;
   background-color: #82B3D3;
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
+  padding: 0 70px;
 }
 
 .inner-header-title {
@@ -213,6 +225,10 @@ body {
 
 .breadcrumbs-link {
   color: inherit;
+}
+
+.catalog-filter {
+  display: flex;
 }
 
 .catalog-filter-title {
