@@ -39,7 +39,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="button" href="#">Хочу сюда!</a>
+            <a class="button button-small button-small-header" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -51,8 +51,11 @@
         <img class="main-logo" src="./images/welcome-logo.svg" width="458" height="352"
           alt="Welcome to the gorgeous Sedona!">
       </div>
-      <p class="section-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-      <p class="section-info">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+
+      <div class="main-description">
+        <p class="section-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="section-info">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      </div>
 
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
@@ -64,32 +67,32 @@
               <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
             <div class="advantages-image">
-              <img src="./images/advantages-1.jpg" alt="">
+              <img src="./images/advantages-1.jpg" alt="Фото улицы Седоны.">
             </div>
 
             <ul class="advantages-list">
-              <li class="advantages-item advantages-pale">
+              <li class="advantages-item advantages-pale sublist">
                 <h4 class="advantages-title">Жильё</h4>
-                <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                <p class="advantages-description">Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!</p>
               </li>
-              <li class="advantages-item">
+              <li class="advantages-item advantages-pale sublist">
                 <h4 class="advantages-title">Еда</h4>
-                <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
+                <p class="advantages-description">Всегда заказывайте<br>топовый фирменный бургер,<br>вы не разочаруетесь!
                 </p>
               </li>
-              <li class="advantages-item advantages-pale">
+              <li class="advantages-item advantages-pale sublist">
                 <h4 class="advantages-title">Сувениры</h4>
-                <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
+                <p class="advantages-description">Не только китайского,<br>но и настоящего местного производства!</p>
               </li>
             </ul>
 
           </li>
           <li class="advantages-block">
             <div class="advantages-image">
-              <img src="./images/advantages-2.jpg" alt="">
+              <img src="./images/advantages-2.jpg" alt="Фото моста дьявола.">
             </div>
             <div class="advantages-item item-city">
-              <h3 class="advantages-title">Там есть мост дьявола</h3>
+              <h3 class="advantages-title">Там есть<br>мост дьявола</h3>
               <p class="advantages-number">— №2 —</p>
               <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             </div>
@@ -99,7 +102,7 @@
             <p class="advantages-number">— №3 —</p>
             <p class="advantages-description">Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="advantages-item advantages-road">
+          <li class="advantages-item advantages-pale">
             <h3 class="advantages-title">Красивая дорога</h3>
             <p class="advantages-number">— №4 —</p>
             <p class="advantages-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
@@ -114,9 +117,9 @@
 
       <section class="find-hotel">
         <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-        <p class="section-title">Заинтересовались?</p>
-        <p class="section-info">Укажите предполагаемые даты поездки, и мы покажем вам лучие предложения гостиниц в
-          Седоне</p>
+        <p class="section-title find-hotel-title">Заинтересовались?</p>
+        <p class="section-info find-hotel-info">Укажите предполагаемые даты поездки,<br>
+          и мы покажем вам лучие предложения гостиниц в Седоне</p>
         <a class="button hotels-button" href="#">Поиск гостиницы в Седоне</a>
       </section>
     </main>
@@ -126,7 +129,7 @@
         <h2 class="section-title newsletter-title">Подпишитесь на рассылку</h2>
         <p class="section-info newsletter-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="newsletter-email">Email</label>
+          <label for="newsletter-email" class="visually-hidden">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
             required>
           <button class="button newsletter-button" type="submit">Подписаться</button>
@@ -164,7 +167,7 @@
 
         <section class="html-academy">
           <a class="html-academy-link" href="https://htmlacademy.ru/">
-            <img src="images/icons/logo-htmlacademy.svg" width="115" height="34" alt="html Академия.">
+            <img class="html-academy-logo" src="images/icons/logo-htmlacademy.svg" width="115" height="34" alt="html Академия.">
           </a>
         </section>
       </div>
