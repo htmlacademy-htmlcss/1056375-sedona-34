@@ -46,13 +46,13 @@
     </header>
 
     <main class="main-container main-inner">
-      <div class="sorting-container">
+      <div class="filter-container">
         <header class="inner-header">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="index.html">
-                <span class="visually-hidden">Домашняя страница</span>
+                <span class="visually-hidden">Главная</span>
               </a>
             </li>
             <li class="breadcrumbs-item">
@@ -117,23 +117,25 @@
         </section>
       </div>
 
-      <span class="search-result-number">Найдено гостиниц: 38</span>
+      <div class="sorting-container">
+        <div class="search-result-number">Найдено гостиниц: 38</div>
 
-      <select class="select-control" aria-label="Сортировка">
-        <option value="cheap">Сначала дешевые</option>
-        <option value="expensive">Сначала дорогие</option>
-        <option value="popular">Сначала популярные</option>
-      </select>
+        <select class="select-control" aria-label="Сортировка">
+          <option value="cheap">Сначала дешевые</option>
+          <option value="expensive">Сначала дорогие</option>
+          <option value="popular">Сначала популярные</option>
+        </select>
 
-      <a class="button-light button-current" href="#">
-        <span class="visually-hidden">Показать каротчки</span>
-      </a>
-      <a class="button-light" href="#">
-        <span class="visually-hidden">Показать по одной карточке</span>
-      </a>
-      <a class="button-light" href="#">
-        <span class="visually-hidden">Показать список</span>
-      </a>
+        <a class="button-light button-current" href="#">
+          <span class="visually-hidden">Показать каротчки</span>
+        </a>
+        <a class="button-light" href="#">
+          <span class="visually-hidden">Показать по одной карточке</span>
+        </a>
+        <a class="button-light" href="#">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+      </div>
 
       <ul class="hotel-card-list">
         <li class="hotel-card-item">
@@ -182,39 +184,41 @@
         </li>
       </ul>
 
-      <ul class="pagination">
-        <li class="pagination-item">
-          <a class="pagination-link pagination-current" href="#">1</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">2</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">3</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">4</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">...</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">10</a>
-        </li>
-      </ul>
+      <div class="pagination">
+        <ul class="pagination-list">
+          <li class="pagination-item">
+            <a class="pagination-link pagination-current" href="#">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">...</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">10</a>
+          </li>
+        </ul>
 
-      <span class="hotel-counter">Гостиниц на странице:</span>
+        <span class="hotel-counter">Гостиниц на странице:</span>
 
-      <select class="select-hotels-display">
-        <option value="4">4</option>
-        <option value="6">6</option>
-        <option value="8">8</option>
-        <option value="10">10</option>
-      </select>
+        <select class="select-hotels-display">
+          <option value="4">4</option>
+          <option value="6">6</option>
+          <option value="8">8</option>
+          <option value="10">10</option>
+        </select>
+      </div>
     </main>
 
     <footer class="page-footer">
-      <section class="catalog-newsletter">
+      <section class="newsletter catalog-newsletter">
         <h2 class="section-title newsletter-title">Подпишитесь на рассылку</h2>
         <p class="section-info newsletter-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
