@@ -450,8 +450,17 @@ body {
   padding: 0;
 }
 
+.hotel-card-item {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  row-gap: 16px;
+  column-gap: 20px;
+  padding: 20px;
+}
+
 .product-card-link {
   text-decoration: none;
+  grid-column: 1/-1;
 }
 
 .product-card-title {
@@ -459,12 +468,18 @@ body {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
+  margin: 0;
+}
+
+.product-card-image {
+  margin-bottom: 16px;
 }
 
 .card-housing-type {
   color: #333333;
   font-size: 18px;
   line-height: 21px;
+  margin-top: auto;
 }
 
 .button-like {
