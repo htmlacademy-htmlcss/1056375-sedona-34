@@ -442,11 +442,13 @@ body {
 }
 
 .hotel-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  column-gap: 18px;
   list-style-type: none;
   margin: 0 73px 96px 71px;
   padding: 0;
 }
-
 
 .product-card-link {
   text-decoration: none;
