@@ -75,10 +75,12 @@ body {
 .button:hover,
 .button:focus {
   background-color: #615048;
+  outline: none;
 }
 
 .button:active {
   color: rgba(255, 255, 255, 0.3);
+  outline: none;
 }
 
 .button-small {
@@ -450,10 +452,12 @@ body {
 .socials-icon:hover,
 .socials-icon:focus {
   fill: #68a2ca;
+  outline: none;
 }
 
 .socials-icon:active {
   fill: rgba(104, 162, 202, 0.3);
+  outline: none;
 }
 
 .contacts {
@@ -477,10 +481,12 @@ body {
 .phone-number:hover,
 .phone-number:focus {
   color: #615048;
+  outline: none;
 }
 
 .phone-number:active {
   color: rgba(117, 97, 87, 0.3);
+  outline: none;
 }
 
 
@@ -488,9 +494,10 @@ body {
   display: block;
 }
 
-.html-academy-logo:hover,
-.html-academy-logo:focus {
+.html-academy-link:hover .html-academy-logo,
+.html-academy-link:focus .html-academy-logo {
   fill: #615048;
+  outline: none;
 }
 
 .html-academy-logo:active {
@@ -1197,10 +1204,12 @@ input[type=number] {
 .select-control:hover,
 .select-control:focus {
   border-color: #68a2ca;
+  outline: none;
 }
 
 .select-control:active {
   border-color: #3f5e72;
+  outline: none;
 }
 
 .select-control:disabled {
@@ -1238,10 +1247,12 @@ input[type=number] {
 
 .button-light:focus {
   border: 2px solid #68a2ca;
+  outline: none;
 }
 
 .button-light:active {
   border: 2px solid #000000;
+  outline: none;
 }
 
 .button-light:disabled {
@@ -1417,10 +1428,13 @@ input[type=number] {
 .pagination-link:hover,
 .pagination-link:focus {
   background-color: #68a2ca;
+  outline: none;
+
 }
 
 .pagination-link:active {
   color: rgba(255, 255, 255, 0.3);
+  outline: none;
 }
 
 .pagination-current,
@@ -1430,6 +1444,7 @@ input[type=number] {
   color: #000000;
   background-color: #f2f2f2;
   cursor: default;
+  outline: none;
 }
 
 .hotel-counter {
