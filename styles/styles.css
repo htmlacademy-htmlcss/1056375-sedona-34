@@ -195,7 +195,6 @@ body {
 }
 
 .header-background {
-
   background-image: url("../images/background-divider.svg"), url("../images/background-header.jpg");
   background-color: #615048;
   background-size: contain, cover;
@@ -488,7 +487,6 @@ body {
   color: rgba(117, 97, 87, 0.3);
   outline: none;
 }
-
 
 .html-academy-logo {
   display: block;
@@ -906,7 +904,6 @@ input[type=number] {
 
 .catalog-filter {
   display: flex;
-
 }
 
 .catalog-filter-list {
@@ -1429,7 +1426,6 @@ input[type=number] {
 .pagination-link:focus {
   background-color: #68a2ca;
   outline: none;
-
 }
 
 .pagination-link:active {
