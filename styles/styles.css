@@ -1030,6 +1030,7 @@ input[type=number] {
 
 .range-input-section {
   position: relative;
+  justify-items: end;
 }
 
 .range-input-section:first-child {
@@ -1047,9 +1048,10 @@ input[type=number] {
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
-  padding: 14px 40px 11px 19px;
+  padding: 10px 40px 10px 19px;
   box-sizing: border-box;
   width: 145px;
+  margin-top: 3px;
 }
 
 .range-input-section:first-child .range-input {
@@ -1131,7 +1133,7 @@ input[type=number] {
 
 .button-reset {
   align-self: center;
-  margin-top: 22px;
+  margin-top: 18px;
   padding: 1px 10px;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
@@ -1189,6 +1191,7 @@ input[type=number] {
   background-position: right 18px center;
   background-color: #FFFFFF;
   appearance: none;
+  cursor: pointer;
 }
 
 .select-control:hover,
