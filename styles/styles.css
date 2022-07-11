@@ -195,8 +195,9 @@ body {
 }
 
 .header-background {
-  background: linear-gradient(#FFFFFF, #82B3D3);
+
   background-image: url("../images/background-divider.svg"), url("../images/background-header.jpg");
+  background-color: #615048;
   background-size: contain, cover;
   background-repeat: no-repeat;
   padding-top: 51px;
@@ -931,20 +932,21 @@ input[type=number] {
   box-sizing: border-box;
 }
 
-.control:hover .control-mark {
+.control-input:hover + .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.control:focus .control-mark {
+.control-input:focus + .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
-  border: 3px solid #83b3d3;
+  outline: 3px solid #83b3d3;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::after {
   position: absolute;
   content: url("../images/icons/checkbox.svg");
-  left: 4px;
-  top: -2px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .control-input[type="radio"] + .control-mark {
@@ -953,13 +955,14 @@ input[type=number] {
 
 .control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 50%;
+  left: 50%;
   width: 10px;
   height: 10px;
   background-color: #3f5e72;
   border-radius: 50%;
   content: "";
+  transform: translate(-50%, -50%);
 }
 
 .range-scale {
@@ -1380,16 +1383,19 @@ input[type=number] {
 .pagination-link:hover,
 .pagination-link:focus {
   background-color: #68a2ca;
-  border: 1px solid #82b3d3;
 }
 
 .pagination-link:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.pagination-current {
+.pagination-current,
+.pagination-current:hover,
+.pagination-current:focus,
+.pagination-current:active {
   color: #000000;
   background-color: #f2f2f2;
+  cursor: default;
 }
 
 .hotel-counter {
